@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 10
+names: ['Jellyfish', 'Penguin', 'SeaHorse', 'Shark', 'Turtle', 'blue_whale', 'dolphin', 'goldfish', 'octopus', 'squid']
+
+roboflow:
+  workspace: tetra
+  project: tetra_marine
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tetra/tetra_marine/dataset/1
